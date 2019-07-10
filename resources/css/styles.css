@@ -80,3 +80,29 @@ header a:hover{
 #showcase p{
     font-size: 20px;
 }
+
+/*Banner*/
+#banner{
+    margin-top: 20px; 
+}
+
+#banner .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#banner .box img{
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#banner .box h3{
+    color: #86C232;
+}
+
+#banner .box p{
+    color: #ffffff;
+}
