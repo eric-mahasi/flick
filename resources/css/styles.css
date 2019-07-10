@@ -106,3 +106,11 @@ header a:hover{
 #banner .box p{
     color: #ffffff;
 }
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #86C232;
+    background-color:#222629 ;
+    text-align: center;
+}
