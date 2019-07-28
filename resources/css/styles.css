@@ -427,7 +427,7 @@ footer {
     padding: 57px 0 70px 0;
 }
 
-h1,
+.news h1,
 h2 {
 	color: #000000;
 	font-size: 60px;
@@ -437,13 +437,9 @@ h2 {
 	padding-bottom: 53px;
 }
 
-h1 {
+.news h1 {
 	text-align: left;
     padding-bottom: 18px;
-}
-
-.news h2 {
-	color: #000000;
 }
 
 .news article {
@@ -453,6 +449,10 @@ h1 {
 
 .news a{
     text-decoration: none;
+}
+
+.news a:hover{
+    color: #86C232;
 }
 
 .news .pic {
@@ -518,4 +518,57 @@ a.btn,
 	display: inline-block;
 	padding: 0 21px;
 	border: none;
+}
+
+/*Blog*/
+#blog{
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+
+
+#blog article{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+
+#blog .blog-meta a{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+}
+
+#blog .blog-meta a:hover{
+    color: #86C232;
+}
+
+#blog .blog-description a{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    margin-right: 10px;
+}
+
+#blog .blog-description a:hover{
+    color: #86C232;
+}
+
+#blog .blog-title{
+    text-align: center;
+}
+
+#blog img{
+   width: 80%;
+   height: 80%
+}
+
+#blog .blog-description p {
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    line-height: 1.7;
 }
