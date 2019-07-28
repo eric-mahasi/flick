@@ -419,3 +419,103 @@ footer {
     width: 240px;
     height: 360px;
 }
+
+/*News*/
+.news {
+	overflow: hidden;
+	background: #ffffff;
+    padding: 57px 0 70px 0;
+}
+
+h1,
+h2 {
+	color: #000000;
+	font-size: 60px;
+	line-height: 68px;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 53px;
+}
+
+h1 {
+	text-align: left;
+    padding-bottom: 18px;
+}
+
+.news h2 {
+	color: #000000;
+}
+
+.news article {
+    float: left;
+    width: 50%;
+}
+
+.news a{
+    text-decoration: none;
+}
+
+.news .pic {
+	float: left;
+    margin-top: 4px;
+}
+
+.news .pic img {
+    border-radius: 5px;
+    width: 50%;
+}
+
+.news .info {
+	overflow: hidden;
+	color: #000000;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.news .info h4 {
+	color: #000000;
+	font-size: 14px;
+	line-height: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.news .info .date {
+	color: #222629;
+	font-size: 12px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+
+.news .info p {
+	padding-bottom: 11px;
+}
+
+.news .more {
+	padding-right: 23px;
+	color: #000000;
+}
+
+.more {
+	padding-right: 23px;
+	color: #000000;
+}
+
+.btn-holder {
+	text-align: center;
+	clear: both;
+	padding: 65px 0 0 0;
+}
+
+a.btn,
+.btn {
+	color: #ffffff;
+	border-radius: 4px;
+	background: #222629;
+	font-size: 16px;
+	height: 46px;
+	line-height: 46px;
+	display: inline-block;
+	padding: 0 21px;
+	border: none;
+}
