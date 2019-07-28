@@ -218,3 +218,38 @@ footer{
     font-weight: lighter;
     letter-spacing: 0.5px;
 }
+
+/*About us */
+#about-us{
+    color: #222629;
+    background-color:#ffffff;
+    padding: 20px; 
+    display: block;
+}
+
+#about-us h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#about-us ul{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#about-us li{
+    line-height: 30px;
+    list-style: circle;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+#about-us .about-us-text{
+    display: block;
+}
+
+#about-us img{
+    float: right;
+    width: 45%;
+}
