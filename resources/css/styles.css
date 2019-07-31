@@ -724,7 +724,19 @@ a.btn,
     margin-top: 50px;
 }
 
-#about-me p, h3, li{
+#about-me p {
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#about-me h3 {
+    text-align: left;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#about-me li {
     text-align: left;
     color: #ffffff;
     font-size: 16px;
@@ -740,4 +752,53 @@ a.btn,
 
 #design h1{
     text-align: center;
+}
+
+/*Application page*/
+
+#apply h1{
+    color: #86C232;
+    font-size: 40px;
+    text-align: center;
+}
+
+#apply p{
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+#apply label{
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+}
+
+#apply .mail-add{
+    color: #86C232;
+    font-size: 25px;
+    text-align: center;
+}
+
+#apply label .required{
+    color: #86C232;
+}
+
+#apply input[type="text"], input[type="email"], input[type="number"] {
+    border: none;
+    border: 1px solid #000000;
+    color: #222629;
+    margin-bottom: 10px;
+    height: 35px;
+    padding: 5px;
+    width: 30%;
+}
+
+#apply button {
+    color: #000000;
+    border: medium none;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 5px 10px;
 }

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Flick High School | Apply</title>
     <link rel="stylesheet" href="./resources/css/styles.css">
-    <link rel="icon" type="image/png" href="./resources/img/favicon.png"/>
+    <link rel="icon" type="image/png" href="./resources/img/favicon.png" />
 </head>
 
 <body>
@@ -28,6 +28,65 @@
             </nav>
         </div>
     </header>
+
+    <section id="apply">
+        <div class="container">
+            <h1>Online Application Form</h1>
+            <div>
+                <form class="apply-form">
+                    <p class="comment-form-level">
+                        <label for="level">What form do you want to join?<span class="required">*</span></label>
+                        <select>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                    </p>
+
+                    <p class="comment-form-sem">
+                        <label for="sem">In what semester do you want to join?<span class="required">*</span></label>
+                        <br><input type="radio">Fall<br>
+                        <input type="radio">Summer<br>
+                        <input type="radio">Spring<br>
+                    </p>
+                    <p class="comment-form-address">
+                        <p class="mail-add">Mailing Address</p>
+                        <p class="comment-form-add">
+                            <label for="author">Street Address<span class="required">*</span></label>
+                            <input type="text" required="required" size="30" value="" name="add">
+                        </p>
+                        <p class="comment-form-town">
+                            <label for="author">City/Town<span class="required">*</span></label>
+                            <input type="text" required="required" size="30" value="" name="town">
+                        </p>
+                        <p class="comment-form-country">
+                            <label for="author">Country<span class="required">*</span></label>
+                            <input type="text" required="required" size="30" value="" name="country">
+                        </p>
+                        <p class="comment-form-box">
+                            <label for="author">P.O. Box Number<span class="required">*</span></label>
+                            <input type="number" size="30" value="" name="box">
+                        </p>
+                        <p class="comment-form-email">
+                            <label for="author">E-mail<span class="required">*</span></label>
+                            <input type="email" required="required" size="30" value="" name="email">
+                        </p>
+                        <p class="comment-form-phone">
+                            <label for="author">Cell Phone<span class="required">*</span></label>
+                            <input type="number" required="required" size="30" value="" name="phone">
+                        </p>
+                        <p class="form-submit">
+                            <button class="contact-btn" type="submit">Submit</button>
+                        </p>
+                        <p class="form-cancel">
+                            <button class="contact-btn-cancel" type="cancel">Cancel</button>
+                        </p>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <section id="bottom-banner">
         <div class="container">
