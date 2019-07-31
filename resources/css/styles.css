@@ -131,6 +131,7 @@ footer {
 
 #main h1 {
     color: #86C232;
+    font-size: 40px;
 }
 
 #departments {
@@ -237,7 +238,7 @@ footer {
 }
 
 #about-us h2 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 20px;
     text-align: left;
 }
