@@ -119,52 +119,6 @@ footer {
     text-align: center;
 }
 
-/*Main section of about us*/
-
-#main {
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 18px;
-}
-
-#main h1 {
-    color: #86C232;
-    font-size: 40px;
-}
-
-#departments {
-    background-color: #ffffff;
-}
-
-#departments h1 {
-    color: #86C232;
-    font-size: 18px;
-    text-align: center;
-}
-
-#departments p {
-    text-align: center;
-    font-size: 16px;
-}
-
-#gallery div {
-    display: inline-block;
-}
-
-#facility {
-    background-color: #222629;
-}
-
-#facilities {
-    text-align: center;
-}
-
-#facilities h1 {
-    color: #86C232;
-}
-
 /*Bottom banner*/
 
 #bottom-banner {
@@ -694,4 +648,25 @@ a.btn,
 	padding: 0 21px;
     border: none;
     width: 65%;
+}
+
+#departments{
+    background-color: #ffffff;
+}
+
+#departments .gallery{
+    margin: 5px;
+    border: 1px solid #000000;
+    float: left;
+    width: 20%;
+}
+
+#departments .gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+#departments .desc{
+    padding: 15px;
+    text-align: center;
 }
