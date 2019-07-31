@@ -309,6 +309,10 @@ footer {
     color: #86C232;
 }
 
+#contact p{
+    font-size: 20px;
+}
+
 #contact label {
     display: block;
     color: #ffffff;
