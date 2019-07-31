@@ -1,3 +1,29 @@
+/* 
+
+Table of Contents
+========================================================
+#BODY SECTION
+#GLOBAL SECTION
+#HEADER SECTION
+#FOOTER SECTION
+#BOTTOM BANNER
+#SHOWCASE SECTION
+#BANNER SECTION
+#ABOUT US 
+#EVENTS SECTION
+#CONTACT US 
+#ADMINISTRATION
+#NEWS SECTION
+#BLOG SECTION
+#TEACHER SECTION
+#APPLY NOW BUTTONS
+#GALLERY 
+#ABOUT ME
+#DESIGN SUMMARY
+#APPLICATION PAGE
+
+*/
+
 body {
     font: 15px/1.5 'Courier New', Courier, monospace;
     padding: 0;
@@ -62,53 +88,6 @@ header .highlight, header .current a {
 header a:hover {
     color: #86C232;
     font-weight: bold;
-}
-
-/*Showcase*/
-
-#showcase {
-    background: url("../img/showcase.jpeg") no-repeat 0 -100px;
-    min-height: 400px;
-    text-align: center;
-    color: #222629;
-    background-size: cover;
-}
-
-#showcase h1 {
-    margin-top: 100px;
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
-#showcase p {
-    font-size: 20px;
-}
-
-/*Banner*/
-
-#banner {
-    margin-top: 20px;
-}
-
-#banner .box {
-    float: left;
-    width: 30%;
-    padding: 10px;
-    text-align: center;
-}
-
-#banner .box img {
-    width: 90px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-#banner .box h3 {
-    color: #86C232;
-}
-
-#banner .box p {
-    color: #ffffff;
 }
 
 footer {
@@ -182,6 +161,53 @@ footer {
     letter-spacing: 0.5px;
 }
 
+/*Showcase*/
+
+#showcase {
+    background: url("../img/showcase.jpeg") no-repeat 0 -100px;
+    min-height: 400px;
+    text-align: center;
+    color: #222629;
+    background-size: cover;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+/*Banner*/
+
+#banner {
+    margin-top: 20px;
+}
+
+#banner .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#banner .box img {
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#banner .box h3 {
+    color: #86C232;
+}
+
+#banner .box p {
+    color: #ffffff;
+}
+
 /*About us */
 
 #about-us {
@@ -191,13 +217,13 @@ footer {
     display: block;
 }
 
-#about-us-title h1{
+#about-us-title h1 {
     font-size: 40px;
     text-align: center;
     color: #86C232;
 }
 
-#about-us-title p{
+#about-us-title p {
     text-align: center;
     font-size: 16px;
     color: #ffffff;
@@ -229,6 +255,8 @@ footer {
     float: right;
     width: 45%;
 }
+
+/*Events section*/
 
 .events {
     padding: 30px 0 40px 0;
@@ -309,7 +337,7 @@ footer {
     color: #86C232;
 }
 
-#contact p{
+#contact p {
     font-size: 20px;
 }
 
@@ -357,10 +385,11 @@ footer {
     display: inline;
     position: relative;
 }
-#admin .admin-title p{
+
+#admin .admin-title p {
     text-align: center;
     color: #ffffff;
-} 
+}
 
 #admin p {
     font-size: 16px;
@@ -394,24 +423,24 @@ footer {
 }
 
 /*News*/
+
 .news {
-	overflow: hidden;
-	background: #ffffff;
+    overflow: hidden;
+    background: #ffffff;
     padding: 57px 0 70px 0;
 }
 
-.news h1,
-h2 {
-	color: #000000;
-	font-size: 60px;
-	line-height: 68px;
-	font-weight: 300;
-	text-align: center;
-	padding-bottom: 53px;
+.news h1, h2 {
+    color: #000000;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 53px;
 }
 
 .news h1 {
-	text-align: left;
+    text-align: left;
     padding-bottom: 18px;
 }
 
@@ -420,16 +449,16 @@ h2 {
     width: 50%;
 }
 
-.news a{
+.news a {
     text-decoration: none;
 }
 
-.news a:hover{
+.news a:hover {
     color: #86C232;
 }
 
 .news .pic {
-	float: left;
+    float: left;
     margin-top: 4px;
 }
 
@@ -439,75 +468,73 @@ h2 {
 }
 
 .news .info {
-	overflow: hidden;
-	color: #000000;
-	font-size: 14px;
-	line-height: 20px;
+    overflow: hidden;
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .news .info h4 {
-	color: #000000;
-	font-size: 14px;
-	line-height: 20px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: bold;
     padding-bottom: 10px;
 }
 
 .news .info .date {
-	color: #222629;
-	font-size: 12px;
-	line-height: 20px;
-	padding-bottom: 10px;
+    color: #222629;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 10px;
 }
 
 .news .info p {
-	padding-bottom: 11px;
+    padding-bottom: 11px;
 }
 
 .news .more {
-	padding-right: 23px;
-	color: #000000;
+    padding-right: 23px;
+    color: #000000;
 }
 
 .more {
-	padding-right: 23px;
-	color: #000000;
+    padding-right: 23px;
+    color: #000000;
 }
 
 .btn-holder {
-	text-align: center;
-	clear: both;
-	padding: 65px 0 0 0;
+    text-align: center;
+    clear: both;
+    padding: 65px 0 0 0;
 }
 
-a.btn,
-.btn {
-	color: #ffffff;
-	border-radius: 4px;
-	background: #222629;
-	font-size: 16px;
-	height: 46px;
-	line-height: 46px;
-	display: inline-block;
-	padding: 0 21px;
-	border: none;
+a.btn, .btn {
+    color: #ffffff;
+    border-radius: 4px;
+    background: #222629;
+    font-size: 16px;
+    height: 46px;
+    line-height: 46px;
+    display: inline-block;
+    padding: 0 21px;
+    border: none;
 }
 
-/*Blog*/
-#blog{
+/*Blog section*/
+
+#blog {
     padding: 100px 0;
     background-color: #ffffff;
 }
 
-
-
-#blog article{
+#blog article {
     float: left;
     width: 30%;
     padding: 15px;
 }
 
-#blog .blog-meta a{
+#blog .blog-meta a {
     color: #000000;
     text-decoration: none;
     display: inline-block;
@@ -515,11 +542,11 @@ a.btn,
     margin-right: 10px;
 }
 
-#blog .blog-meta a:hover{
+#blog .blog-meta a:hover {
     color: #86C232;
 }
 
-#blog .blog-description a{
+#blog .blog-description a {
     color: #000000;
     text-decoration: none;
     display: inline-block;
@@ -527,17 +554,17 @@ a.btn,
     margin-right: 10px;
 }
 
-#blog .blog-description a:hover{
+#blog .blog-description a:hover {
     color: #86C232;
 }
 
-#blog .blog-title{
+#blog .blog-title {
     text-align: center;
 }
 
-#blog img{
-   width: 80%;
-   height: 80%
+#blog img {
+    width: 80%;
+    height: 80%
 }
 
 #blog .blog-description p {
@@ -548,7 +575,7 @@ a.btn,
 
 /*Teacher section*/
 
-#teachers{
+#teachers {
     background-color: #ffffff;
 }
 
@@ -566,10 +593,11 @@ a.btn,
     display: inline;
     position: relative;
 }
-#teachers .teacher-title p{
+
+#teachers .teacher-title p {
     text-align: center;
     color: #000000;
-} 
+}
 
 #teachers p {
     font-size: 16px;
@@ -603,113 +631,117 @@ a.btn,
 }
 
 /*Apply now button on home page*/
-#apply-btn-home{
+
+#apply-btn-home {
     background-color: #ffffff;
     text-align: center;
     clear: both;
-	padding: 150px 0 150px 0;
+    padding: 150px 0 150px 0;
 }
 
-#apply-btn-home a{
+#apply-btn-home a {
     text-decoration: none;
     color: #86C232;
 }
 
-#apply-btn-home a:hover{
+#apply-btn-home a:hover {
     color: #000000;
 }
 
-#apply-btn-home .btn:hover{
+#apply-btn-home .btn:hover {
     background: #86C232;
 }
 
-#apply-btn-home .btn{
-	border-radius: 4px;
-	background: #222629;
-	font-size: 30px;
-	height: 60px;
-	line-height: 60px;
-	display: inline-block;
-	padding: 0 21px;
+#apply-btn-home .btn {
+    border-radius: 4px;
+    background: #222629;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    padding: 0 21px;
     border: none;
     width: 65%;
 }
 
-/*Apply now button on home page*/
-#apply-btn{
+/*Apply now button on about us page*/
+
+#apply-btn {
     background-color: #222629;
     text-align: center;
     clear: both;
-	padding: 150px 0 150px 0;
+    padding: 150px 0 150px 0;
 }
 
-#apply-btn a{
+#apply-btn a {
     text-decoration: none;
     color: #000000;
 }
 
-#apply-btn a:hover{
+#apply-btn a:hover {
     color: #ffffff;
 }
 
-#apply-btn .btn:hover{
+#apply-btn .btn:hover {
     background: #86C232;
 }
 
-#apply-btn .btn{
-	border-radius: 4px;
-	background: #ffffff;
-	font-size: 30px;
-	height: 60px;
-	line-height: 60px;
-	display: inline-block;
-	padding: 0 21px;
+#apply-btn .btn {
+    border-radius: 4px;
+    background: #ffffff;
+    font-size: 30px;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+    padding: 0 21px;
     border: none;
     width: 65%;
 }
+
 /*Gallery*/
-#departments{
+
+#departments {
     background-color: #ffffff;
 }
 
-#departments .gallery{
+#departments .gallery {
     margin: 5px;
     border: 1px solid #222629;
     float: left;
     width: 20%;
 }
 
-#departments .gallery img{
+#departments .gallery img {
     width: 100%;
     height: 100%;
 }
 
-#departments .desc{
+#departments .desc {
     padding: 15px;
     text-align: center;
 }
 
-#facilities h2{
+#facilities h2 {
     color: #86C232;
 }
 
-#facilities .gallery{
+#facilities .gallery {
     margin: 5px;
     border: 1px solid #ffffff;
     float: left;
     width: 20%;
 }
 
-#facilities .gallery:hover{
+#facilities .gallery:hover {
     border: 1px solid #86C232;
 }
 
-#facilities .gallery img{
+#facilities .gallery img {
     width: 100%;
     height: 100%;
 }
 
-#facilities .desc{
+#facilities .desc {
     color: #ffffff;
     padding: 15px;
     text-align: center;
@@ -717,11 +749,11 @@ a.btn,
 
 /*About me*/
 
-#about-me{
+#about-me {
     text-align: center;
 }
 
-#about-me img{
+#about-me img {
     border-radius: 50%;
     width: 50%;
     height: 50%;
@@ -748,49 +780,49 @@ a.btn,
 
 /*Design summary*/
 
-#design{
+#design {
     text-align: left;
     color: #ffffff;
     font-size: 16px;
     background-color: #ffffff;
 }
 
-#design h1{
+#design h1 {
     text-align: center;
     color: #86C232;
 }
 
-#design p{
+#design p {
     color: #000000;
 }
 
 /*Application page*/
 
-#apply h1{
+#apply h1 {
     color: #86C232;
     font-size: 40px;
     text-align: center;
 }
 
-#apply p{
+#apply p {
     font-size: 20px;
     color: #ffffff;
     display: block;
 }
 
-#apply label{
+#apply label {
     font-size: 20px;
     color: #ffffff;
     display: block;
 }
 
-#apply .mail-add{
+#apply .mail-add {
     color: #86C232;
     font-size: 25px;
     text-align: center;
 }
 
-#apply label .required{
+#apply label .required {
     color: #86C232;
 }
 
