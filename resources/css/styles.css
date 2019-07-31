@@ -752,10 +752,16 @@ a.btn,
     text-align: left;
     color: #ffffff;
     font-size: 16px;
+    background-color: #ffffff;
 }
 
 #design h1{
     text-align: center;
+    color: #86C232;
+}
+
+#design p{
+    color: #000000;
 }
 
 /*Application page*/
