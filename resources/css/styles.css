@@ -576,6 +576,10 @@ a.btn,
 
 /*Teacher section*/
 
+#teachers{
+    background-color: #ffffff;
+}
+
 #teachers .single-teacher {
     float: left;
     width: 30%;
@@ -592,16 +596,16 @@ a.btn,
 }
 #teachers .teacher-title p{
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 } 
 
 #teachers p {
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
 }
 
 #teachers span {
-    color: #86C232;
+    color: #000000;
     display: block;
     font-size: 14px;
     margin-bottom: 8px;
@@ -611,14 +615,14 @@ a.btn,
 #teachers h2 {
     text-align: center;
     font-size: 35px;
-    color: #86C232;
+    color: #000000;
 }
 
 #teachers h4 {
     margin-bottom: 0;
     margin-top: 20px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #86C232;
 }
 
 #teachers img {
