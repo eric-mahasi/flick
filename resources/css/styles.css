@@ -369,33 +369,33 @@ footer {
     padding: 5px 10px;
 }
 
-/*Admin section*/
+/*teachers section*/
 
-#admin .single-admin {
+#teachers .single-teachers {
     float: left;
     width: 30%;
     padding: 10px;
 }
 
-#admin .single-admin-content {
+#teachers .single-teachers-content {
     display: inline-block;
 }
 
-#admin .single-admin-img {
+#teachers .single-teachers-img {
     display: inline;
     position: relative;
 }
-#admin .admin-title p{
+#teachers .teachers-title p{
     text-align: center;
     color: #ffffff;
 } 
 
-#admin p {
+#teachers p {
     font-size: 16px;
     color: #ffffff;
 }
 
-#admin span {
+#teachers span {
     color: #86C232;
     display: block;
     font-size: 14px;
@@ -403,20 +403,20 @@ footer {
     margin-top: 5px;
 }
 
-#admin h2 {
+#teachers h2 {
     text-align: center;
     font-size: 35px;
     color: #86C232;
 }
 
-#admin h4 {
+#teachers h4 {
     margin-bottom: 0;
     margin-top: 20px;
     text-transform: uppercase;
     color: #ffffff;
 }
 
-#admin img {
+#teachers img {
     width: 240px;
     height: 360px;
 }
@@ -572,4 +572,56 @@ a.btn,
     font-size: 15px;
     letter-spacing: 0.3px;
     line-height: 1.7;
+}
+
+/*Teacher section*/
+
+#teachers .single-teacher {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+#teachers .single-teacher-content {
+    display: inline-block;
+}
+
+#teachers .single-teacher-img {
+    display: inline;
+    position: relative;
+}
+#teachers .teacher-title p{
+    text-align: center;
+    color: #ffffff;
+} 
+
+#teachers p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#teachers span {
+    color: #86C232;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+#teachers h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #86C232;
+}
+
+#teachers h4 {
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#teachers img {
+    width: 240px;
+    height: 360px;
 }
