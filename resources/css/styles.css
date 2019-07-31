@@ -191,6 +191,18 @@ footer {
     display: block;
 }
 
+#about-us-title h1{
+    font-size: 40px;
+    text-align: center;
+    color: #86C232;
+}
+
+#about-us-title p{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+}
+
 #about-us h2 {
     font-size: 35px;
     margin-bottom: 20px;
