@@ -369,33 +369,33 @@ footer {
     padding: 5px 10px;
 }
 
-/*teachers section*/
+/*Admin section*/
 
-#teachers .single-teachers {
+#admin .single-admin {
     float: left;
     width: 30%;
     padding: 10px;
 }
 
-#teachers .single-teachers-content {
+#admin .single-admin-content {
     display: inline-block;
 }
 
-#teachers .single-teachers-img {
+#admin .single-admin-img {
     display: inline;
     position: relative;
 }
-#teachers .teachers-title p{
+#admin .admin-title p{
     text-align: center;
     color: #ffffff;
 } 
 
-#teachers p {
+#admin p {
     font-size: 16px;
     color: #ffffff;
 }
 
-#teachers span {
+#admin span {
     color: #86C232;
     display: block;
     font-size: 14px;
@@ -403,20 +403,20 @@ footer {
     margin-top: 5px;
 }
 
-#teachers h2 {
+#admin h2 {
     text-align: center;
     font-size: 35px;
     color: #86C232;
 }
 
-#teachers h4 {
+#admin h4 {
     margin-bottom: 0;
     margin-top: 20px;
     text-transform: uppercase;
     color: #ffffff;
 }
 
-#teachers img {
+#admin img {
     width: 240px;
     height: 360px;
 }
@@ -628,4 +628,70 @@ a.btn,
 #teachers img {
     width: 240px;
     height: 360px;
+}
+
+/*Apply now button on home page*/
+#apply-btn-home{
+    background-color: #ffffff;
+    text-align: center;
+    clear: both;
+	padding: 150px 0 150px 0;
+}
+
+#apply-btn-home a{
+    text-decoration: none;
+    color: #86C232;
+}
+
+#apply-btn-home a:hover{
+    color: #000000;
+}
+
+#apply-btn-home .btn:hover{
+    background: #86C232;
+}
+
+#apply-btn-home .btn{
+	border-radius: 4px;
+	background: #222629;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	padding: 0 21px;
+    border: none;
+    width: 65%;
+}
+
+/*Apply now button on home page*/
+#apply-btn{
+    background-color: #222629;
+    text-align: center;
+    clear: both;
+	padding: 150px 0 150px 0;
+}
+
+#apply-btn a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#apply-btn a:hover{
+    color: #ffffff;
+}
+
+#apply-btn .btn:hover{
+    background: #86C232;
+}
+
+#apply-btn .btn{
+	border-radius: 4px;
+	background: #ffffff;
+	font-size: 30px;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	padding: 0 21px;
+    border: none;
+    width: 65%;
 }
