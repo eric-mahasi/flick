@@ -294,6 +294,7 @@ footer {
 /*Contact page*/
 
 #contact {
+    background-color: #ffffff;
     display: inline;
     padding: 100px 0;
 }
@@ -305,6 +306,7 @@ footer {
 
 #contact h2 {
     font-size: 40px;
+    color: #86C232;
 }
 
 #contact label {
@@ -323,7 +325,7 @@ footer {
     margin-bottom: 10px;
     height: 35px;
     padding: 5px;
-    width: 100%;
+    width: 30%;
 }
 
 #contact button {
