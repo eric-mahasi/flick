@@ -1,5 +1,5 @@
 # Flick
-School project for APT 1040: Introduction to Web Design and Applications.
+APT1040-A Introduction to Web Design & Applications Project for Summer Semester 2019.
 
 This project is a simple website that provides information and promotes the 
 functions of a fictitious Flick High School. It showcases the school's events, 
